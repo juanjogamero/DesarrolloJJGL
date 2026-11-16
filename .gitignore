@@ -1,0 +1,29 @@
+# Visual Studio / Rider / VS Code
+.vs/
+.idea/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# .NET generated files (existing tracked files require git rm --cached)
+**/bin/
+**/obj/
+[Dd]ebug/
+[Rr]elease/
+TestResults/
+*.pdb
+*.cache
+*.tmp
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Environment / credentials
+.env
+.env.*
+!.env.example
+appsettings.Development.json
+secrets.json
